@@ -31,12 +31,21 @@
 // 18=> file_put_contents(FILE_APPEND);
 // 19=> file_put_contents(LOCK_EX);
 // 20=> file_put_contents(FILE_APPEND | LOCK_EX);
-// 21=> 
-// 22=> 
-// 23=> 
-// 24=> 
-// 25=> 
-// 26=> 
+
+// class_6 
+// 21=>  array data keep txt file
+// 22=>  array data read into txt file
+// 23=>  data remove into txt file 
+// 24=> explode()
+// 25=> fputcsv();
+// 25=> fgetcsv();
+// 25=> array_values();
+
+// class_7
+// 25=> serialize();
+// 26=> unserialize()
+
+// class_8
 // 27=> 
 // 28=> 
 // 29=> 

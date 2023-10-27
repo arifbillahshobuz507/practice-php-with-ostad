@@ -1,12 +1,1 @@
-arif,23,arif@gmail.com
-billah,24,arifbillah@gmail.com
-hi,25,arifbillahshobuz@gmail.com
-arif,23,arif@gmail.com
-billah,24,arifbillah@gmail.com
-hi,25,arifbillahshobuz@gmail.com
-arif,23,arif@gmail.com
-billah,24,arifbillah@gmail.com
-hi,25,arifbillahshobuz@gmail.com
-arif,23,arif@gmail.com
-billah,24,arifbillah@gmail.com
-hi,25,arifbillahshobuz@gmail.com
+a:5:{i:0;a:3:{s:4:"name";s:4:"arif";s:5:"gamil";s:26:"arifbillahshobuz@gmail.com";s:5:"phone";s:11:"01956020255";}i:1;a:3:{s:4:"name";s:4:"sayd";s:5:"gamil";s:14:"sayd@gmail.com";s:5:"phone";s:11:"01956020255";}i:2;a:3:{s:4:"name";s:7:"rabbani";s:5:"gamil";s:17:"rabbani@gmail.com";s:5:"phone";i:956020255;}i:3;a:3:{s:4:"name";s:6:"warash";s:5:"gamil";s:16:"warash@gmail.com";s:5:"phone";i:95553255;}i:4;a:3:{s:4:"name";s:5:"ashik";s:5:"gamil";s:15:"ashik@gmail.com";s:5:"phone";i:56549020255;}}

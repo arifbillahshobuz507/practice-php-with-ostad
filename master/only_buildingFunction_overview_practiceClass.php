@@ -11,19 +11,20 @@
 // 8=> rewind();
 // 9=> file();
 // 10=> is_readable(); 
+// getcwd();
 */
 
 //class_2
-// 11=> fwrite('w mood');
-// 12=> fwrite('a' mod)
+// 11=> fopen('w mood');
+// 12=> fopen('a' mod)
 
 // class_3
 // 13=> \\ using file name
 
 //class_4
-// 14=> fopen('r+' mood)
-// 15=> fopen('w+' mood)
-// 16=> fopen('a+' mood)
+// 14=> fopen('r+' mood) mousepointer up
+// 15=> fopen('w+' mood) drop
+// 16=> fopen('a+' mood) mousepointer down
 
 //class_5
 // 17=> file_put_contentns();

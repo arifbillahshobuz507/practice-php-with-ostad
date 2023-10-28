@@ -1,6 +1,5 @@
 <?php
-$file = getcwd().trim(' \video 6\data\data.txt' );
-
+$file= getcwd().trim(' \video 8\data\data.txt' );
 $studens = 
 [
  [
@@ -27,10 +26,19 @@ $studens =
   "name"=> "ashik",
   "gamil"=> "ashik@gmail.com",
   "phone"=> 56549020255,
- ]
-];
-$data = serialize($studens);
-// file_put_contents($file, $data,FILE_APPEND);
-$hello = file_get_contents($file);
-$result = unserialize($hello);
-print_r($result);
+  ]
+ ];
+ 
+ 
+ 
+ // json old data remove and new data add 
+ $data = json_encode($studens);// json remove old data than add jeson_data new add
+ file_put_contents($file,$data);
+ 
+ 
+ 
+ // json old data keep and new data add
+  $fp = fopen($file, 'a+');
+  $newData = json_encode($studens);
+  fwrite($fp,$newData);
+  fclose($fp);

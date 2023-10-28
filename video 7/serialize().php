@@ -1,4 +1,6 @@
 <?php
+$file = getcwd(). trim('\data\data.txt');
+// echo $file;
 $studens = 
 [
  [
@@ -27,12 +29,5 @@ $studens =
   "phone"=> 56549020255,
  ]
 ];
-
-$file= getcwd().trim(' \video 8\data\data.txt' );
-// $data = json_encode($studens);
-// echo $data;
-// file_put_contents($file,$data);
-
-$data = file_get_contents($file);
-$mData = json_decode($data, true);
-print_r($mData);
+$data = serialize($studens);
+file_put_contents($file, $data,FILE_APPEND);

@@ -46,13 +46,19 @@
 // 26=> unserialize()
 
 // class_8
-// 27=> 
-// 28=> 
-// 29=> 
-// 30=> 
-// 31=> 
-// 32=> 
-// 33=> 
+// 27=> json_encoder();
+// 28=> json_decoder();
+
+// class_9 
+// 29=> only discuss session
+
+// class_10
+// 30=> session_name();
+// 31=> session_start();
+// 32=> $_SESSION['name']='hello';   // input variable in session
+// 33=> session_destroy();
+
+// class_11
 // 34=> 
 // 35=> 
 // 36=> 

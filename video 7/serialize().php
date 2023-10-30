@@ -1,5 +1,6 @@
 <?php
 $file = getcwd(). trim('\data\data.txt');
+echo $file;
 // echo $file;
 $studens = 
 [
